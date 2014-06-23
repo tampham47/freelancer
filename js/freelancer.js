@@ -24,3 +24,8 @@ $(function() {
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
+
+$('.tk-popover').popover({
+    trigger: 'hover',
+    delay: { show: 300, hide: 100 }
+})
